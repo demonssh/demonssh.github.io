@@ -19,19 +19,23 @@
   <meta name="author" content="JunZhe Li">
   <meta name="keywords" content="">
   
-    <meta property="og:type" content="article">
-<meta property="og:title" content="Fist_article">
-<meta property="og:url" content="https://demonssh.github.io/2025/12/17/First-article/index.html">
+    <meta name="description" content="目标实现同一仓库的中英文站点：根目录保留默认语言，&#x2F;zh-CN&#x2F; 提供中文；首页、归档、分类、标签等页面在对应语言下只显示该语言的文章。 配置步骤 安装多语言首页生成器并移除默认首页生成器  12npm uninstall hexo-generator-indexnpm install hexo-generator-index-i18n --save  根配置 _config.yml 设定语言顺序">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hexo 双语言与文章过滤实战">
+<meta property="og:url" content="https://demonssh.github.io/2025/12/18/hexo-%E5%8F%8C%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98/index.html">
 <meta property="og:site_name" content="JunZhe Li&#39;s Blog">
-<meta property="og:locale" content="en_US">
-<meta property="article:published_time" content="2025-12-17T23:09:40.000Z">
-<meta property="article:modified_time" content="2025-12-18T23:38:58.426Z">
+<meta property="og:description" content="目标实现同一仓库的中英文站点：根目录保留默认语言，&#x2F;zh-CN&#x2F; 提供中文；首页、归档、分类、标签等页面在对应语言下只显示该语言的文章。 配置步骤 安装多语言首页生成器并移除默认首页生成器  12npm uninstall hexo-generator-indexnpm install hexo-generator-index-i18n --save  根配置 _config.yml 设定语言顺序">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-12-18T05:00:00.000Z">
+<meta property="article:modified_time" content="2025-12-19T02:29:30.611Z">
 <meta property="article:author" content="JunZhe Li">
+<meta property="article:tag" content="Hexo">
+<meta property="article:tag" content="多语言">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Fist_article - JunZhe Li&#39;s Blog</title>
+  <title>Hexo 双语言与文章过滤实战 - JunZhe Li&#39;s Blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -119,9 +123,9 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/" target="_self">
+              <a class="nav-link" href="/zh-CN/" target="_self">
                 <i class="iconfont icon-home-fill"></i>
-                <span>Home</span>
+                <span>首页</span>
               </a>
             </li>
           
@@ -131,9 +135,9 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/archives/" target="_self">
+              <a class="nav-link" href="/zh-CN/archives/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
-                <span>Archives</span>
+                <span>归档</span>
               </a>
             </li>
           
@@ -143,9 +147,9 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/categories/" target="_self">
+              <a class="nav-link" href="/zh-CN/categories/" target="_self">
                 <i class="iconfont icon-category-fill"></i>
-                <span>Categories</span>
+                <span>分类</span>
               </a>
             </li>
           
@@ -155,9 +159,9 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/tags/" target="_self">
+              <a class="nav-link" href="/zh-CN/tags/" target="_self">
                 <i class="iconfont icon-tags-fill"></i>
-                <span>Tags</span>
+                <span>标签</span>
               </a>
             </li>
           
@@ -167,9 +171,9 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/about/" target="_self">
+              <a class="nav-link" href="/zh-CN/about/" target="_self">
                 <i class="iconfont icon-user-fill"></i>
-                <span>About</span>
+                <span>关于</span>
               </a>
             </li>
           
@@ -179,9 +183,9 @@
           
           
             <li class="nav-item">
-              <a class="nav-link" href="/links/" target="_self">
+              <a class="nav-link" href="/zh-CN/links/" target="_self">
                 <i class="iconfont icon-link-fill"></i>
-                <span>Links</span>
+                <span>友链</span>
               </a>
             </li>
           
@@ -239,7 +243,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Fist_article"></span>
+            <span id="subtitle" data-typed-text="Hexo 双语言与文章过滤实战"></span>
           
         </div>
 
@@ -250,8 +254,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-12-17 18:09" pubdate>
-          December 17, 2025 pm
+        <time datetime="2025-12-18 00:00" pubdate>
+          2025年12月18日 凌晨
         </time>
       </span>
     
@@ -262,7 +266,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          0 words
+          615 字
         
       </span>
     
@@ -273,7 +277,7 @@
         
         
         
-          1 mins
+          6 分钟
         
       </span>
     
@@ -310,12 +314,49 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Fist_article</h1>
+            <h1 id="seo-header">Hexo 双语言与文章过滤实战</h1>
             
             
               <div class="markdown-body">
                 
-                
+                <h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><p>实现同一仓库的中英文站点：根目录保留默认语言，<code>/zh-CN/</code> 提供中文；首页、归档、分类、标签等页面在对应语言下只显示该语言的文章。</p>
+<h2 id="配置步骤"><a href="#配置步骤" class="headerlink" title="配置步骤"></a>配置步骤</h2><ol>
+<li>安装多语言首页生成器并移除默认首页生成器</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm uninstall hexo-generator-index<br>npm install hexo-generator-index-i18n --save<br></code></pre></td></tr></table></figure>
+<ol start="2">
+<li>根配置 <code>_config.yml</code> 设定语言顺序，开启多语言首页</li>
+</ol>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs yml"><span class="hljs-attr">language:</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-string">en</span><br>  <span class="hljs-bullet">-</span> <span class="hljs-string">zh-CN</span><br><span class="hljs-attr">index_generator:</span><br>  <span class="hljs-attr">path:</span> <span class="hljs-string">&#x27;&#x27;</span><br>  <span class="hljs-attr">per_page:</span> <span class="hljs-number">10</span><br>  <span class="hljs-attr">order_by:</span> <span class="hljs-string">-date</span><br></code></pre></td></tr></table></figure>
+<ol start="3">
+<li>文章前置数据添加语言标记，并将所有语言的文章统一放在 <code>source/_posts/</code> 下</li>
+</ol>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs md">---<br>title: Hello World<br><span class="hljs-section">lang: en</span><br><span class="hljs-section">---</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs md">---<br>title: 你好，世界<br><span class="hljs-section">lang: zh-CN</span><br><span class="hljs-section">---</span><br></code></pre></td></tr></table></figure>
+<ol start="4">
+<li>中文页面骨架（放在 <code>source/zh-CN/</code>，用于生成中文首页及各功能页）</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-built_in">source</span>/zh-CN/about/index.md        <span class="hljs-comment"># lang: zh-CN</span><br><span class="hljs-built_in">source</span>/zh-CN/archives/index.md     <span class="hljs-comment"># lang: zh-CN, layout: archive, type: archives</span><br><span class="hljs-built_in">source</span>/zh-CN/categories/index.md   <span class="hljs-comment"># lang: zh-CN, layout: categories, type: categories</span><br><span class="hljs-built_in">source</span>/zh-CN/tags/index.md         <span class="hljs-comment"># lang: zh-CN, layout: tags, type: tags</span><br><span class="hljs-built_in">source</span>/zh-CN/links/index.md        <span class="hljs-comment"># lang: zh-CN, layout: links, type: links</span><br></code></pre></td></tr></table></figure>
+<p>示例 Front‑matter：  </p>
+<figure class="highlight md"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs md">---<br>title: 归档<br>lang: zh-CN<br>layout: archive<br><span class="hljs-section">type: archives</span><br><span class="hljs-section">---</span><br></code></pre></td></tr></table></figure>
+<ol start="5">
+<li>导航链接按语言自动加前缀：修改 <code>node_modules/hexo-theme-fluid/layout/_partials/header/navigation.ejs</code>，在渲染菜单时读取 <code>page.lang</code>，当前语言是中文则为相对链接添加 <code>/zh-CN</code> 前缀；语言切换按钮保持绝对路径 <code>/</code> 与 <code>/zh-CN/</code>。</li>
+<li>归档按语言过滤：修改 <code>node_modules/hexo-theme-fluid/layout/archive.ejs</code>，根据 <code>page.lang</code> 过滤 <code>site.posts</code>，并将过滤结果赋给 <code>page.posts</code> 后再渲染。示例：</li>
+</ol>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs ejs">const langKey = (page.lang || &#x27;&#x27;).toLowerCase()<br>const allPosts = page.posts || site.posts<br>const filteredPosts = langKey<br>  ? allPosts.filter(p =&gt; (p.lang || &#x27;&#x27;).toLowerCase() === langKey)<br>  : allPosts<br>page.posts = filteredPosts<br></code></pre></td></tr></table></figure>
+<ol start="7">
+<li>生成与预览</li>
+</ol>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm run clean<br>npm run build<br>npm run server   <span class="hljs-comment"># 预览 http://localhost:4000/ 与 http://localhost:4000/zh-CN/</span><br></code></pre></td></tr></table></figure>
+
+<h2 id="文件与修改清单"><a href="#文件与修改清单" class="headerlink" title="文件与修改清单"></a>文件与修改清单</h2><p>必需新建：<code>source/zh-CN/about/index.md</code>、<code>source/zh-CN/archives/index.md</code>、<code>source/zh-CN/categories/index.md</code>、<code>source/zh-CN/tags/index.md</code>、<code>source/zh-CN/links/index.md</code>（均带 <code>lang: zh-CN</code>，并设置对应 layout&#x2F;type）。<br>必需修改：<code>_config.yml</code>（language、index_generator）、<code>node_modules/hexo-theme-fluid/layout/_partials/header/navigation.ejs</code>（按语言前缀菜单）、<code>node_modules/hexo-theme-fluid/layout/archive.ejs</code>（按语言过滤文章）。<br>可选扩展：同样思路为分类&#x2F;标签模板增加语言过滤，确保中文分类页只显示中文文章。</p>
+<h2 id="验证要点"><a href="#验证要点" class="headerlink" title="验证要点"></a>验证要点</h2><ol>
+<li><code>npx hexo list route</code> 应出现 <code>/index.html</code>、<code>/en/index.html</code>、<code>/zh-CN/index.html</code>。  </li>
+<li><code>http://localhost:4000/</code> 显示英文文章列表；<code>http://localhost:4000/zh-CN/</code> 只显示中文文章。  </li>
+<li><code>http://localhost:4000/archives/</code> 列出所有语言；<code>http://localhost:4000/zh-CN/archives/</code> 只列中文（依赖归档模板过滤）。  </li>
+<li>导航在中文页指向 <code>/zh-CN/...</code>，在英文页指向 <code>/...</code>，语言切换按钮可互跳。</li>
+</ol>
+
                 
               </div>
             
@@ -323,6 +364,15 @@
             <div>
               <div class="post-metas my-3">
   
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/Hexo/" class="print-no-link">#Hexo</a>
+      
+        <a href="/tags/%E5%A4%9A%E8%AF%AD%E8%A8%80/" class="print-no-link">#多语言</a>
+      
+    </div>
   
 </div>
 
@@ -332,32 +382,32 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Fist_article</div>
-      <div>https://demonssh.github.io/2025/12/17/First-article/</div>
+      <div>Hexo 双语言与文章过滤实战</div>
+      <div>https://demonssh.github.io/2025/12/18/hexo-双语言实战/</div>
     </div>
     <div class="license-meta">
       
         <div class="license-meta-item">
-          <div>Author</div>
+          <div>作者</div>
           <div>JunZhe Li</div>
         </div>
       
       
         <div class="license-meta-item license-meta-date">
-          <div>Posted on</div>
-          <div>December 17, 2025</div>
+          <div>发布于</div>
+          <div>2025年12月18日</div>
         </div>
       
       
       
         <div class="license-meta-item">
-          <div>Licensed under</div>
+          <div>许可协议</div>
           <div>
             
               
               
                 <a class="print-no-link" target="_blank" href="https://creativecommons.org/licenses/by/4.0/">
-                  <span class="hint--top hint--rounded" aria-label="BY - Attribution">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
                     <i class="iconfont icon-cc-by"></i>
                   </span>
                 </a>
@@ -377,19 +427,13 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2025/12/18/hexo-%E5%8F%8C%E8%AF%AD%E8%A8%80%E5%AE%9E%E6%88%98/" title="Hexo 双语言与文章过滤实战">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">Hexo 双语言与文章过滤实战</span>
-                        <span class="visible-mobile">Previous</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2025/12/17/hello-world/" title="Hello World">
-                        <span class="hidden-mobile">Hello World</span>
-                        <span class="visible-mobile">Next</span>
+                      <a href="/2025/12/17/First-article/" title="Fist_article">
+                        <span class="hidden-mobile">Fist_article</span>
+                        <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
                     
@@ -410,7 +454,7 @@
     <div id="toc">
   <p class="toc-header">
     <i class="iconfont icon-list"></i>
-    <span>Table of Contents</span>
+    <span>目录</span>
   </p>
   <div class="toc-body" id="toc-body"></div>
 </div>
@@ -466,7 +510,7 @@
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">Search</h4>
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -474,7 +518,7 @@
       <div class="modal-body mx-3">
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
-          <label data-error="x" data-success="v" for="local-search-input">Keyword</label>
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
@@ -652,7 +696,7 @@
   
 
   <noscript>
-    <div class="noscript-warning">Blog works best with JavaScript enabled</div>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
 </body>
 </html>
